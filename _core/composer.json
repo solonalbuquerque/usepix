@@ -1,0 +1,24 @@
+{
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "~6.1",
+        "mercadopago/dx-php": "2.5.3",
+        "thingengineer/mysqli-database-class": "dev-master",
+        "vlucas/phpdotenv": "^5.4",
+        "mustache/mustache": "^2.14",
+        "guzzlehttp/guzzle": "^7.5",
+        "jenssegers/optimus": "dev-master",
+        "voku/anti-xss": "4.1.x-dev",
+        "phpunit/php-text-template": "^1.2",
+        "daniel-zahariev/php-aws-ses": "^0.9.1"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "SmartSolucoes\\" : "App/"
+        }
+    }
+}
